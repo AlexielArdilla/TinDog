@@ -5,10 +5,13 @@ body{
 #title{
   background-color: #ff4c68;
   color: white;
+ 
 }
 
 #features{
+  background-color: white;
   text-align: center;
+ 
 }
 
 .container-fluid{
@@ -106,4 +109,65 @@ p {
 }
 .carousel-item{
     padding: 7% 15%;
+}
+
+#pricing{
+
+  padding: 100px;
+  text-align: center;
+}
+
+.boton-ancho{
+  display: inline-block;
+  width: 100%;
+}
+
+.pricing-column{
+
+  padding: 1.5rem;
+}
+
+@media (max-width: 1028px){
+
+.rotateimg180{
+
+  position: static;
+  -webkit-transform:rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.media-for-change{
+  text-align: center;
+}
+
+}
+
+#cta{
+
+  background-color: #ef8172;
+  padding: 3rem;
+  text-align: center;
+  
+}
+
+.true-love {
+
+  font-family: "Montserrat-Bold";
+  text-align: center;
+  padding: 3rem;
+  color: white;
+
+}
+
+#footer{
+
+  color: black;
+  text-align: center;
+  padding: 3rem;
+
 }
